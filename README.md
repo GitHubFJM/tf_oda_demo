@@ -1,13 +1,17 @@
 # tf_oda_demo
 [0] tf object dection api
+
 https://github.com/tensorflow/models
 
-Please refer to the g3doc under research/object_dection folder
+Please refer to the g3doc under research/object_dection folder.
+
 If you're using windows, the recommend steps is
-1. Anaconda 4.2 because you will only be able to use tf with python 3.5 on windows. The installation path to anadonda should not contains empty space (i.e. please do not follow the default path "program files") to avoid some python tools or lib has call stack issue.
-2. You'd better have cuda8 with the cudnn matches your gpu. Because the testing result is i5 cpu train has only 10% performance comparing to Geforce 840m. It doesn't mean Titan X have a better score but if we're talking about 100m dataset or your cnn config is exhausting gpu resource, I do believe cpu makes you suffer and you might regret not buying a computer with Navinder.
-3. Install tensorflow-gpu with pip or tensorflow if you don't have an N-card. I don't recommend you to use setup the mirror in Qinghua, because anaconda 4.2 has covered everything I need to a demo and the mirror doesn't and not always matching your system.
+1. Anaconda 4.2 because you will only be able to use tf with python 3.5 on windows so far, Jan 2018. The installation path to anadonda should not contain any empty space. (i.e. please do not follow the default path "program files") Because some python app you need to build might throwing issue because it were designed for linux and cannot bypass this break.
+I don't recommend you to use setup the mirror in Qinghua as some blog said, because anaconda 4.2 has covered everything I need to a demo but the mirror doesn't which lead to issues during pip install.
+2. You'd better installing cuda8 with the cudnn which is matching your Navidia series. Per my exp to i5 cpu training and Geforce 840m training, cpu needs 22sec to a global step but gpu only need 2.4 sec based sdd model. It doesn't mean Titan X have a better score when comparing to Geforce 840m but if you want to train 100m data within 3 days, please buy one or multiple Titan X, to lend a cloud DL from vendor, or setup your own distribution training framework.
+3. Install tensorflow-gpu with pip or tensorflow if you don't have an N-card.
 4. Download the tf models.
 
-[1] How to train data via existing model: 
+[1] How to train data via existing model
+
 http://blog.csdn.net/wei_guo_xd/article/details/78585555?locationNum=10&fps=1
