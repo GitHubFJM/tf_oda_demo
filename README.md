@@ -11,6 +11,7 @@ I don't recommend you to setup the mirror in Qinghua, because anaconda 4.2 has c
 2. You'd better installing cuda8 with the cudnn which is matching your Navidia series. Per my exp to i5 cpu training and Geforce 840m training, cpu needs 22sec to a global step but gpu only need 2.4 sec based sdd model. It doesn't mean Titan X have a better score when comparing to Geforce 840m but if you want to train 100m data within 3 days, please buy one or multiple Titan X, to lend a cloud DL from vendor, or setup your own distribution training framework.
 3. Install tensorflow-gpu with pip or tensorflow if you don't have an N-card.
 4. Download the tf models.
+5. Add research and research/slim into PYTHONPATH, the system variable. If it doesn't exists, please create one.
 
 [1] How to train data via existing model
 
