@@ -1,0 +1,1 @@
+python object_detection/eval.py --checkpoint_dir=object_detection\models\model\train --pipeline_config_path=object_detection\models\model\ssd_mobilenet_v1_cust.config --eval_dir=object_detection\models\model\eval

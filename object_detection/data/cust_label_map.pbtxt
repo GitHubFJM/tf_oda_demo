@@ -1,0 +1,29 @@
+item {
+  id: 1
+  name: 'textbox'
+}
+
+item {
+  id: 2
+  name: 'combox'
+}
+
+item {
+  id: 3
+  name: 'button'
+}
+
+item {
+  id: 4
+  name: 'checkbox'
+}
+
+item {
+  id: 5
+  name: 'radioButton'
+}
+
+item {
+  id: 6
+  name: 'link'
+}

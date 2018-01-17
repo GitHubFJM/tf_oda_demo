@@ -1,0 +1,1 @@
+python object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=object_detection\models\model\ssd_mobilenet_v1_cust.config --trained_checkpoint_prefix=object_detection\models\model\train\model.ckpt-2950 --output_directory=object_detection\models\model\savedModel
