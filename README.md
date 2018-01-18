@@ -16,3 +16,6 @@ I don't recommend you to setup the mirror in Qinghua, because anaconda 4.2 has c
 [1] How to train data via existing model
 
 http://blog.csdn.net/wei_guo_xd/article/details/78585555?locationNum=10&fps=1
+
+[2] How to install label image to help you setup training data
+http://blog.csdn.net/u010807846/article/details/73480628
